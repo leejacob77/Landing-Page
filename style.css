@@ -1,9 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
-    height: auto;
+    height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto;
 }
 
@@ -35,7 +34,19 @@ a {
 
 .hero {
     display: flex;
-    flex-direction: column;
+    background: #1F2937;
+}
+
+.subtext {
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
 
 button {
@@ -47,4 +58,15 @@ button {
 button.sign-up {
     background: #3882F6;
     color: white;
+}
+
+button.sign-down {
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+}
+
+img {
+    width: 400px;
+    height: 200px;
 }
