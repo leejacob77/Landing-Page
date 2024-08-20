@@ -71,6 +71,7 @@ button.sign-down {
     background-color: #3882F6;
     color: white;
     border-color: white;
+    margin-right: 40px;
 }
 
 img {
@@ -120,4 +121,29 @@ img {
 .signature {
     align-self: flex-end;
     padding-right: 40px;
+}
+
+.action {
+    padding: 180px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 40px;
+}
+
+.call {
+    color: white;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    color: white;
+    padding: 20px 40px;
 }
