@@ -64,6 +64,7 @@ button {
 button.sign-up {
     background: #3882F6;
     color: white;
+    margin-top: 8px;
 }
 
 button.sign-down {
@@ -73,6 +74,50 @@ button.sign-down {
 }
 
 img {
-    width: 400px;
+    width: 200px;
     height: 200px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 32px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 52px;
+    padding: 40px;
+}
+
+.card {
+    max-width: 350px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    color: #1F2937;
+    padding: 180px;
+}
+
+.paragraph {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.signature {
+    align-self: flex-end;
+    padding-right: 40px;
 }
