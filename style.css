@@ -34,7 +34,13 @@ a {
 
 .hero {
     display: flex;
+    justify-content: space-evenly;
     background: #1F2937;
+}
+
+.container {
+    padding: 80px;
+    max-width: 400px;
 }
 
 .subtext {
